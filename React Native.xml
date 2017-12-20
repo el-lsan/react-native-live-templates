@@ -1,0 +1,31 @@
+<templateSet group="React Native">
+  <template name="rncomp" value="/** &#10; * $class_name_and_description$&#10; * @author $author_name$&#10; * created on $creation_date$&#10; */&#10;&#10;import React, { Component } from 'react';&#10;import { Platform, View, StyleSheet, Text, Image, AppRegistry } from 'react-native';&#10;&#10;export default class $class_name$ extends Component &lt;{}&gt; {&#10;&#9;&#10;&#9;render() {&#10;&#9;&#9;return &lt;view&gt;$additional_views$$END$&lt;/view&gt;;&#10;&#9;}&#10;}&#10;&#10;const styles = StyleSheet.create({&#10;&#9;// todo&#10;});" description="Creates a new component with stylesheet" toReformat="false" toShortenFQNames="true">
+    <variable name="class_name_and_description" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="author_name" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <variable name="creation_date" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="class_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="additional_views" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rnstyle" value="const styles = StyleSheet.create({&#10;&#9;$END$&#10;});" description="Creates a new empty stylesheet" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rnpselect" value="const $variable_name$ = Platform.select({&#10;&#9;ios: $ios_instructions$,&#10;&#9;android: $android_instructions$&#10;});&#10;$END$" description="Platform.select shortcut" toReformat="false" toShortenFQNames="true">
+    <variable name="variable_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ios_instructions" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="android_instructions" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rnregister" value="AppRegistry.registerComponent('$component_name$', () =&gt; App);&#10;$END$" description="Register component" toReformat="false" toShortenFQNames="true">
+    <variable name="component_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
