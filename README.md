@@ -24,7 +24,7 @@ import { Platform, View, StyleSheet, Text, Image, AppRegistry } from 'react-nati
 export default class $class_name$ extends Component <{}> {
 		
 	render() {
-		return <view>$additional_views$$END$</view>;
+		return <View>$additional_views$$END$</View>;
 	}
 }
 
