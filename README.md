@@ -3,6 +3,16 @@ Jetbrains Live Templates / Snippets for React Native.
 
 Some basic react-native live templates for the Webstorm/Jetbrains IDE.
 
+Functionality includes:
+
+- Creating getters/setters
+- Creating new classes
+- Creating new components
+- Registering components with AppRegistry
+- Platform-specific stuff with Platform.Select()
+
+Disclaimer: Only recently started with React Native, so it's a work in progress.
+
 ### Installation
 Templates can be included by copying the React Native.xml to your [Templates](https://www.jetbrains.com/help/idea/sharing-live-templates.html) folder:  
 OSX: ```~/Library/Preferences/WebStorm<version>/templates```  
