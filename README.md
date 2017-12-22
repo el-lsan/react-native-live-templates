@@ -5,8 +5,8 @@ Some basic react-native live templates for the Webstorm/Jetbrains IDE.
 
 ### Installation
 Templates can be included by copying the React Native.xml to your [Templates](https://www.jetbrains.com/help/idea/sharing-live-templates.html) folder:  
-OSX: ```~/Library/Preferences/IntelliJ IDEA<version>/templates```  
-Windows: ```<your_user_home_directory>\.IntelliJ IDEA<version_number>\config\templates```
+OSX: ```~/Library/Preferences/WebStorm<version>/templates```  
+Windows: ```<your_user_home_directory>\.WebStorm<version_number>\config\templates```
 
 ### Snippets:
 
